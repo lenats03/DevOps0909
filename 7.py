@@ -4,6 +4,8 @@ def my_function(current_name):
 
 my_function("lena")
 
+    print ('Lena')
+
 
 def is_prime() -> bool:
     inp_number = None
@@ -23,7 +25,10 @@ def is_prime() -> bool:
     for i in range(1, abs(inp_number)):
         if inp_number == 0:
             return True
-        if inp_number % i == 0 and i not in (1, abs(inp_number)):
-            return False
+        if i != 0 or i in (1, abs(inp_number)):
+            continue
+        return False
     else:
         return True
+
+    print('diff for conflict2xxcvxcvs')
