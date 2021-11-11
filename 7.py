@@ -31,4 +31,4 @@ def is_prime() -> bool:
     else:
         return True
 
-    print('diff for conflict2xxcvxcvs')
+    print('diff')
