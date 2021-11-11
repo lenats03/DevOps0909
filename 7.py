@@ -27,6 +27,3 @@ def is_prime() -> bool:
             return False
     else:
         return True
-
-
-print(is_prime())
